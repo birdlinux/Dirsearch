@@ -74,6 +74,9 @@ func checkDirectory(domain, directory string) {
 	boldFont := color.New(color.Bold).SprintFunc()
 	if statusCode == http.StatusOK {
 		fmt.Printf("%s  %s  %s\n", boldFont(timestamp), statusColor("VALID"), boldFont(url))
+	} else {
+		// fmt.Printf("")
+		// fmt.Printf("%s  %s  %s\n", boldFont(timestamp), color.RedString("INVALID"), boldFont(url))
 	}
 }
 
@@ -107,9 +110,10 @@ func constructURL(domain, directory string) string {
 }
 
 func getRequestStatusCode(url string) int {
-	response, err := http.Head(url)
+	response, err := http.Get(url)
 	if err != nil {
 		return -1
 	}
+	defer response.Body.Close()
 	return response.StatusCode
 }
