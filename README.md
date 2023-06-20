@@ -47,9 +47,9 @@
 <br />
 <center> <h1 align="left" id="about">About</h1> </center>
 
-Dirsearch is an innovative project designed to revolutionize DNS enumeration, providing a powerful tool for effortlessly discovering and mapping subdomains. With its advanced capabilities and streamlined efficiency, Dirsearch simplifies the process of subdomain analysis, offering comprehensive visibility into hidden domains.
+Discover hidden files and directories effortlessly with Dirsearch. Our powerful tool revolutionizes directory and file enumeration, simplifying the analysis for comprehensive visibility. Explore and map directories and files like never before, with advanced capabilities and streamlined efficiency. 
 
-![image](https://github.com/birdlinux/Dirsearch/assets/123122904/d02deca4-9827-4760-8ba6-6b5d4a68c93a)
+![image](https://github.com/birdlinux/Dirsearch/assets/123122904/8a048f2f-2829-4b7f-a01d-9b99de8b0ac5)
 
 
 
