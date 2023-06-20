@@ -7,7 +7,7 @@
   </a>
 
   <h3 align="center">Dirsearch</h3>
- 
+  
   <p align="center">
     Enhance active directory analysis with Dirsearch's effectiveness
     <br />
