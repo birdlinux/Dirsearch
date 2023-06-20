@@ -9,7 +9,7 @@
   <h3 align="center">Dirsearch</h3>
  
   <p align="center">
-    Enhance subdomain analysis with Dirsearch's effectiveness
+    Enhance active directory analysis with Dirsearch's effectiveness
     <br />
     <a href="https://github.com/birdlinux/Dirsearch"><strong>Explore the docs »</strong></a>
     <br />
